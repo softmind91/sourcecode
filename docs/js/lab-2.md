@@ -50,7 +50,7 @@ else
 let marks = 80;
 if(marks > 50)
     if(marks > 80)
-        console.log('Pass: A+ Grade')
+        console.log('Pass: A+ Grade');
     else
         console.log('Pass: C Grade');
 else
@@ -65,7 +65,7 @@ Note: you can try this code with different values of marks like 90, 40
 ```sh
 let marks = 85;
 if(marks > 50 && marks > 80)
-    console.log('Pass: A+ Grade')
+    console.log('Pass: A+ Grade');
 else
     console.log('Pass: C Grade');
 
@@ -79,7 +79,7 @@ Note: you can try this code with different values of marks like 40
 ```sh
 let degree = 'matric';
 if(degree === 'matric || degree === 'o-level')
-    console.log('Admitted')
+    console.log('Admitted');
 else
     console.log('Not Admitted');
 
