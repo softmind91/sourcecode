@@ -93,6 +93,7 @@ console.log(text);
 The *break* statement can also be used to jump out of a loop:
 
 ```sh
+text = "";
 for (let i = 0; i < 10; i++) {
   if (i === 3) { break; }
   text += "The number is " + i + "<br>";
@@ -103,6 +104,7 @@ for (let i = 0; i < 10; i++) {
 The continue statement can only be used to skip one loop iteration.
 
 ```sh
+text = "";
 for (let i = 0; i < 10; i++) {
   if (i === 3) { continue; }
   text += "The number is " + i + "<br>";
